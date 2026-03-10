@@ -14,4 +14,4 @@ spec:
               service:
                 name: wil42-playground
                 port:
-                  number: 8086
+                  number: 80
