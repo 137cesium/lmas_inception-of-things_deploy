@@ -14,7 +14,7 @@ spec:
         app: wil42-playground
     spec:
       containers:
-        - image: nginxdemos/hello:0.4-plain-text
+        - image: nginxdemos/hello:0.4
           name: wil42-playground
           ports:
             - containerPort: 80
