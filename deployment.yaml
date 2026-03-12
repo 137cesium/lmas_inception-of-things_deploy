@@ -16,11 +16,5 @@ spec:
       containers:
         - image: gitlab/gitlab-ce:18.7.5-ce.0
           name: gitlab-app
-          env:
-            - name: GITLAB_OMNIBUS_CONFIG
-              value: |
-                external_url 'http://localhost:8081/'
-                nginx['listen_port'] = 80
-                nginx['listen_https'] = false
           ports:
             - containerPort: 80
