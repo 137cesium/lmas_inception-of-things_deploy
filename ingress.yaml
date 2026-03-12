@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: wil42-playground
-  namespace: argocd
+  namespace: dev
 spec:
   ingressClassName: traefik
   rules:
