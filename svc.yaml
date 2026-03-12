@@ -4,7 +4,7 @@ metadata:
   name: wil42-playground
 spec:
   ports:
-  - port: 81
-    targetPort: 81
+  - port: 80
+    targetPort: 80
   selector:
     app: wil42-playground

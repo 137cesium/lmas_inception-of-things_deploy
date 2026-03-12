@@ -17,4 +17,4 @@ spec:
         - image: nginxdemos/hello:0.4
           name: wil42-playground
           ports:
-            - containerPort: 81
+            - containerPort: 80
